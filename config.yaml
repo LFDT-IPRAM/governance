@@ -1,4 +1,8 @@
 teams:
+  - name: ipram-maintainers
+    maintainers:
+      - evanp8io
+    members: []
   - name: lf-staff
     maintainers:
       - ryjones
@@ -6,7 +10,23 @@ teams:
       - jwagantall
       - thelinuxfoundation
 repositories:
+  - name: impl
+    teams:
+      ipram-maintainers: maintain
+      lf-staff: maintain
+    visibility: public
+  - name: docs
+    teams:
+      ipram-maintainers: maintain
+      lf-staff: maintain
+    visibility: public
   - name: governance
     teams:
-      community: maintain
+      ipram-maintainers: maintain
+      lf-staff: maintain
+    visibility: public
+  - name: spec
+    teams:
+      ipram-maintainers: maintain
+      lf-staff: maintain
     visibility: public
