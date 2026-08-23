@@ -10,6 +10,11 @@ teams:
       - jwagantall
       - thelinuxfoundation
 repositories:
+  - name: .github
+    teams:
+      ipram-maintainers: maintain
+      lf-staff: maintain
+    visibility: public
   - name: impl
     teams:
       ipram-maintainers: maintain
@@ -26,6 +31,11 @@ repositories:
       lf-staff: maintain
     visibility: public
   - name: spec
+    teams:
+      ipram-maintainers: maintain
+      lf-staff: maintain
+    visibility: public
+  - name: TSC
     teams:
       ipram-maintainers: maintain
       lf-staff: maintain
