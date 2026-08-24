@@ -2,8 +2,8 @@ teams:
   - name: ipram-maintainers
     maintainers:
       - evanp8io
+    members: 
       - gkp8io
-    members: []
   - name: lf-staff
     maintainers:
       - ryjones
